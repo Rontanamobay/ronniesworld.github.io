@@ -28,12 +28,12 @@ p {
 }
 
 .main-content {
-    margin: 7.5% 0 7.5% 0;
+    margin: 7.5% 0 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .main-content h1 {
@@ -99,8 +99,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
+
 .project-section h1 {
     color: #9B6A6C;
     margin: 0 0 10px 0;
@@ -109,4 +110,24 @@ header {
 .project-section h2 {
     font-size: 18pt;
     color: #B09398;
+}
+
+.index-main-rows {
+    margin: 0 2%;
+    height: 600px;
+}
+
+.index-main-rows ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.index-main-rows li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    background-color: #F5F5F5;
+
 }
