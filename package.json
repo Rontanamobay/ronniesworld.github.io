@@ -1,0 +1,11 @@
+{
+  "name": "ronniesworld.github.io",
+  "version": "1.0.0",
+  "description": "A blog app with different functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronnie",
+  "license": "ISC"
+}
